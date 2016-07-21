@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["David Zhang"]
   spec.email         = ["crispgm@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
+  spec.summary       = %q{A Liquid tag for embedding disqus}
+  spec.description   = %q{Write a longer description or delete this line.}
   spec.homepage      = "https://github.com/crispgm/jekyll-disqus"
   spec.license       = "MIT"
 
@@ -28,7 +28,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_dependency 'jekyll', '~> 3.1'
-  
+
   spec.add_development_dependency "bundler", "~> 1.12"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "minitest", "~> 5.0"

@@ -5,11 +5,13 @@ module Jekyll
     def initialize(tag_name, text, tokens)
       super
       @disqus_name = text.strip
-      if @disqus_name.empty?
-      	@disqus_name = context.registers[:disqus]
     end
 
     def render(context)
+      if @disqus_name.empty?
+        @disqus_name = context.registers[:disqus]
+      end
+      
       html = <<-EOB
 var disqus_shortname = '#{@disqus_name}';
 (function() {
