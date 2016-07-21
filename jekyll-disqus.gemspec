@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["crispgm@gmail.com"]
 
   spec.summary       = %q{A Liquid tag for embedding disqus}
-  spec.description   = %q{Write a longer description or delete this line.}
+  # spec.description   = %q{Write a longer description or delete this line.}
   spec.homepage      = "https://github.com/crispgm/jekyll-disqus"
   spec.license       = "MIT"
 
