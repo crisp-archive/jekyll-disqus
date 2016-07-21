@@ -31,9 +31,10 @@ A Liquid tag plugin for Jekyll
 
 ## Usage
 
-	It will get directly from parameter:
-	```
-	{% disqus crispgm %}
-	```
+It will get directly from parameter:
 
-	Otherwise, it will read from the ```_config.yml```.
+```
+{% disqus crispgm %}
+```
+
+Otherwise, it will read from the ```_config.yml```.
