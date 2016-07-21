@@ -1,7 +1,8 @@
 # Jekyll Disqus
 
 ![](https://img.shields.io/badge/license-MIT-blue.svg)
-![](https://badge.fury.io/rb/jekyll-tagslist.svg)
+![](https://badge.fury.io/rb/jekyll-disqus.svg)
+[![Code Climate](https://codeclimate.com/github/crispgm/jekyll-disqus/badges/gpa.svg)](https://codeclimate.com/github/crispgm/jekyll-disqus)
 
 A Liquid tag plugin for Jekyll
 
